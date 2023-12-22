@@ -1,0 +1,134 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #131313;
+    display: flex;
+    flex-direction: row;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+  
+.navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+  
+.navbar .leftSide img {
+    width: 45px;
+    border-radius: 5px;
+}
+  
+.navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.navbar a {
+    color: #131313;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navbar a:hover {
+    color: #7818ff;
+    transition: all 0.3s ease;
+}
+  
+.navbar .rightSide .icon {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar .btn-open {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    padding: 4px;
+    background-color: #7818ff;
+    border-radius: 5px;
+}
+
+.navbar .btn-open:hover {
+    color:#7818ff;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+  
+.navbar .rightSide svg {
+    font-size: 40px;
+}
+  
+.navbar #open {
+    padding-left: 0px;
+}
+
+.navbar #open img {
+    display: none;
+}
+
+.navbar #open .lunk {
+    display: none;
+}
+  
+.navbar #close img {
+    display: inherit;
+}
+  
+.navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+}
+  
+.navbar #close .hiddenLinks {
+    display: none;
+}
+  
+.navbar #open a {
+    width: 70px;
+    margin: 5px;
+}
+  
+@media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      padding-left: 50px;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide .icon {
+      display: inherit;
+    }
+}
+  
+@media only screen and (min-width: 600px) {
+    .navbar .rightSide .icon {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+}

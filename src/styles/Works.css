@@ -1,0 +1,187 @@
+/* Header Section styles */
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px;
+  background-color: #3498db;
+  color: #fff;
+}
+    
+.video-container {
+  flex: 1;
+  margin-right: 20px;
+}
+    
+.welcome-container {
+  flex: 1;
+}
+    
+.welcome-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+    
+.welcome-container p {
+  font-size: 18px;
+}
+  
+.repeat {
+  background-image: linear-gradient(rgba(98, 102, 115, 0.7),rgba(21, 56, 81, 0.7)), url(../assets/happy.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  height: 140vh;
+}
+    
+.titles {
+  color: #fff;
+  margin-left: 5px;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #9e4edf;
+}
+    
+.inside {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  row-gap: 25px;
+  grid-auto-rows: 1fr;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fafafa;
+  height: 75%;
+}
+    
+.horizontal-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid #aa6ade;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+}
+  
+.icon {
+  height: 20px;
+  width: 20px;
+  color: #9e4edf;
+}
+  
+.work-header {
+  color: #9e4edf;
+  padding-top: 8px;
+  font-weight: bold; /* Bold header text */
+}
+
+.work-text {
+  padding-top: 8px;
+  color: #666; /* Gray text color */
+}
+  
+.purp {
+  background-image: linear-gradient(rgba(98, 102, 115, 0.7),rgba(21, 56, 81, 0.7)), url(../assets/Works.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  height: 140vh;
+}
+  
+.purp .titles {
+  text-shadow: 2px 2px 2px #9e4edf;
+}
+  
+.purp .horizontal-layout{
+  border: 1px solid #aa6ade;
+}
+  
+.purp .header {
+  color: #9e4edf;
+}
+    
+  /* Encouragement Section styles */
+.encouragement {
+  text-align: center;
+  padding: 40px;
+  background-color: #9e4edf;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+    
+.encouragement h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+    
+.encouragement p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+    
+.encouragement .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #9e4edf;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+    
+    .encouragement .btn:hover {
+      background-color: #9e4edf;
+      color: #fff;
+    }
+  
+  .diverse__cont {
+    display: flex;
+    height: 50vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .diverse {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .diverse .header {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .diverse .subheader {
+    margin: 0;
+    font-size: 1.5em;
+    color: #555;
+  }
+  
+  .diversed {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .diversed .svg {
+    max-width: 80%;
+    min-height: 80%;
+  }
