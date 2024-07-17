@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/Account.css'
 import Logo from '../assets/logo.png'
+import House from '../components/House'
+import '../styles/House.css'
 
 function Housing() {
   return (
@@ -49,13 +51,9 @@ function Housing() {
     <a href="#contact">Logout</a>
   </div>
 
-    <div className="housing">
-      <h1 className="housingTitle">Housing</h1>
-      <div className="housingList">
-        
-      </div>
-    </div>
-
+  <div>
+    <House />
+  </div>
     </>
   )
 }

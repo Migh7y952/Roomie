@@ -1,34 +1,34 @@
 import Atlanta from '../assets/atlanta.png'
 import Manhattan from '../assets/Manhattan.jpg'
 
-export const HousesList = [
+export const HouseList = [
     {
-        adress: "Atlanta",
+        address: "Atlanta",
         image: {Atlanta},
         price: 41.500
     },
     {
-        adress: "Kennesaw",
-        image: {Atlata},
-        price: 41.500
-    },
-    {
-        adress: "Manhattan",
-        image: {Manhattan},
-        price: 41.500
-    },
-    {
-        adress: "Houston",
-        image: {Manhattan},
-        price: 41.500
-    },
-    {
-        adress: "San Diego",
+        address: "Kennesaw",
         image: {Atlanta},
         price: 41.500
     },
     {
-        adress: "Los Angeles",
+        address: "Manhattan",
+        image: {Manhattan},
+        price: 41.500
+    },
+    {
+        address: "Houston",
+        image: {Manhattan},
+        price: 41.500
+    },
+    {
+        address: "San Diego",
+        image: {Atlanta},
+        price: 41.500
+    },
+    {
+        address: "Los Angeles",
         image: {Manhattan},
         price: 41.500
     }
